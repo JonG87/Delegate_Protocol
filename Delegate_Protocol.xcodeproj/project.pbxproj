@@ -12,6 +12,7 @@
 		A90DBE4D21FD602E0043981F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90DBE4B21FD602E0043981F /* Main.storyboard */; };
 		A90DBE4F21FD60300043981F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90DBE4E21FD60300043981F /* Assets.xcassets */; };
 		A90DBE5221FD60300043981F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90DBE5021FD60300043981F /* LaunchScreen.storyboard */; };
+		A90DBE5C21FD6AE40043981F /* TeamSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DBE5B21FD6AE40043981F /* TeamSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A90DBE4E21FD60300043981F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90DBE5121FD60300043981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90DBE5321FD60300043981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90DBE5B21FD6AE40043981F /* TeamSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A90DBE4721FD602E0043981F /* AppDelegate.swift */,
 				A90DBE4921FD602E0043981F /* ViewController.swift */,
+				A90DBE5B21FD6AE40043981F /* TeamSelectionViewController.swift */,
 				A90DBE4B21FD602E0043981F /* Main.storyboard */,
 				A90DBE4E21FD60300043981F /* Assets.xcassets */,
 				A90DBE5021FD60300043981F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				A90DBE4A21FD602E0043981F /* ViewController.swift in Sources */,
 				A90DBE4821FD602E0043981F /* AppDelegate.swift in Sources */,
+				A90DBE5C21FD6AE40043981F /* TeamSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V6Y8S47H8;
 				INFOPLIST_FILE = Delegate_Protocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "JonathanGrakowski.Delegate-Protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V6Y8S47H8;
 				INFOPLIST_FILE = Delegate_Protocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "JonathanGrakowski.Delegate-Protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
